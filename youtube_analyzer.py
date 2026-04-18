@@ -1,12 +1,12 @@
 from textwrap import dedent
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from agno.agent import Agent
 #from agno.models.openai import OpenAIResponses
 from agno.models.groq import Groq
 
 from agno.tools.youtube import YouTubeTools
 
-load_dotenv()
+#load_dotenv()
 
 def build_youtube_agent():
     return Agent(
